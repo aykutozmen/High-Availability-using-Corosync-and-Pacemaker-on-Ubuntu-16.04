@@ -1,4 +1,4 @@
-# High Availability using Corosync and Pacemaker on Ubuntu 16.04
+## High Availability using Corosync and Pacemaker on Ubuntu 16.04
 
 Corosync is an open source program that provides cluster membership and messaging capabilities, often referred to as the messaging layer, to client servers.
 Pacemaker is an open source cluster resource manager (CRM), a system that coordinates resources and services that are managed and made highly available by a cluster. In essence, Corosync enables servers to communicate as a cluster, while Pacemaker provides the ability to control how the cluster behaves.
