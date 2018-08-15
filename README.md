@@ -129,12 +129,14 @@ On Server A:
   # crm configure primitive virtual_public_ip ocf:heartbeat:IPaddr2 params ip="q.w.e.r" cidr_netmask="32" op monitor interval="10s" meta migration-threshold="2" failure-timeout="60s" resource-stickiness="100"
 ```
 Replace “q.w.e.r” with cluster IP address for example: 192.168.1.100
+
 **Verification and Management:**
 ```
   # crm status
   # ip addr list
 ```
 You should see cluster IP address on one server.
+
 **Change of primary node to secondary and secondary to primary:**
 You can use these commands manually on both servers.
 ```
