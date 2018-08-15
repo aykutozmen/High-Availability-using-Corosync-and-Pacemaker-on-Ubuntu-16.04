@@ -143,5 +143,5 @@ You can use these commands manually on both servers.
   # crm node standby primary
   # crm node online secondary
 ```
-Or run the script named **change_node.sh** in order to float the cluster IP on the servers without any packet loss.
+Or run the script named **change_node.sh** in order to float the cluster IP on the servers without any packet loss. This script needs to be run on Server A. You should monitor the status of cluster with **crm_mon** command.
 
